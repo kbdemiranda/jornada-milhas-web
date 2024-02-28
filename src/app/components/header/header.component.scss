@@ -1,0 +1,22 @@
+.navegacao{
+  background-color: var(--preto);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+.logo{
+  width: 25%;
+}
+
+.logo-img{
+  width: 176px;
+  height: 44px;
+}
+
+.usuario{
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
