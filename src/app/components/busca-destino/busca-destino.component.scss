@@ -1,0 +1,31 @@
+.pesquisa-destinos{
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 20px;
+  margin: 5rem 10rem;
+  padding: 2.5%;
+  width: 80%;
+  background-color: var(--cinza-claro-on);
+}
+
+.pesquisa-destinos-titulo{
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.pesquisa-destinos-form{
+  display: flex;
+  gap: 1rem;
+}
+
+.busca-destinos-input{
+  width: 90%;
+  color: var(--Neutro-escuros-Cinza-mdio, #79747E);
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid var(--Neutro-escuros-Cinza-mdio, #79747E);
+}
