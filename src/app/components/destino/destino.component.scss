@@ -1,0 +1,29 @@
+.destino{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: fit-content;
+
+  border: var(--cinza-claro) solid 1px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--cinza-escuro);
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .destino-titulo{
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .preco{
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}

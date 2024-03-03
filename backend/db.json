@@ -1,0 +1,58 @@
+{
+  "destinos": [
+    {
+      "id": 1,
+      "nomeDestino": "Atacama",
+      "meta": "2024",
+      "fotoPrincipal": "http://localhost:3000/cards/Atacama.png",
+      "fotoSecundaria": "",
+      "valor": 2000.00,
+      "descricao": "O Deserto do Atacama, localizado no norte do Chile, é conhecido por ser o deserto não polar mais seco do mundo. [...]"
+    },
+    {
+      "id": 2,
+      "nomeDestino": "Veneza",
+      "meta": "2025",
+      "fotoPrincipal": "http://localhost:3000/cards/Veneza.png",
+      "fotoSecundaria": "",
+      "valor": 2500.00,
+      "descricao": "Veneza, a capital da região do Vêneto no norte da Itália, é construída sobre mais de 100 pequenas ilhas em uma lagoa no Mar Adriático. [...]"
+    },
+    {
+      "id": 3,
+      "nomeDestino": "Patagônia",
+      "meta": "2026",
+      "fotoPrincipal": "http://localhost:3000/cards/Patagonia.png",
+      "fotoSecundaria": "",
+      "valor": 3000.00,
+      "descricao": "A Patagônia, uma região compartilhada pelo sul da Argentina e do Chile, apresenta paisagens de tirar o fôlego com suas vastas estepes, glaciares e picos dos Andes. [...]"
+    },
+    {
+      "id": 4,
+      "nomeDestino": "Cordilheira dos Andes",
+      "meta": "2027",
+      "fotoPrincipal": "http://localhost:3000/cards/Andes.png",
+      "fotoSecundaria": "",
+      "valor": 3500.00,
+      "descricao": "A Cordilheira dos Andes é a mais longa cadeia de montanhas do mundo e o ponto mais alto das Américas, estendendo-se ao longo da borda ocidental da América do Sul. [...]"
+    },
+    {
+      "id": 5,
+      "nomeDestino": "Turquia",
+      "meta": "2028",
+      "fotoPrincipal": "http://localhost:3000/cards/Turquia.png",
+      "fotoSecundaria": "",
+      "valor": 4000.00,
+      "descricao": "A Turquia, uma nação que ocupa uma posição única, estendendo-se pela Ásia e pela Europa, é conhecida por sua rica história cultural, culinária diversificada e paisagens de tirar o fôlego. [...]"
+    },
+    {
+      "id": 6,
+      "nomeDestino": "Grand Canyon",
+      "meta": "2029",
+      "fotoPrincipal": "http://localhost:3000/cards/Canyon.png",
+      "fotoSecundaria": "",
+      "valor": 4500.00,
+      "descricao": "O Grand Canyon, uma das grandes maravilhas naturais do mundo, é um vasto cânion esculpido pelo Rio Colorado no estado do Arizona, EUA. [...]"
+    }
+  ]
+}
