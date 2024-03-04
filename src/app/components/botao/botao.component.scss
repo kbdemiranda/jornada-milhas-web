@@ -1,3 +1,5 @@
+@use '../../../variaveis';
+
 button{
   border: none;
   border-radius: 5px;
@@ -6,24 +8,25 @@ button{
 }
 
 .botao-primary{
-  background: var(--primaria);
-  color: var(--superficie-1);
+  background: variaveis.$primaria;
+  color: variaveis.$superficie-1;
+  border: variaveis.$cinza solid;
 }
 
 .botao-primary:active{
   background: transparent;
-  color: var(--primaria);
-  border: var(--cinza) solid;
+  color: variaveis.$primaria;
+  border: variaveis.$cinza solid;
 }
 
 .botao-secondary{
   background: transparent;
-  color: var(--primaria);
-  border: var(--cinza) solid;
+  color: variaveis.$primaria;
+  border: variaveis.$cinza solid;
 }
 
 .botao-secondary:active{
-  background: var(--primaria);
-  color: var(--superficie-1);
+  background: variaveis.$primaria;
+  color: variaveis.$superficie-1;
   border: none;
 }

@@ -1,3 +1,6 @@
+@use '../../../variaveis';
+
+
 .destino{
   display: flex;
   flex-direction: column;
@@ -6,9 +9,9 @@
 
   width: fit-content;
 
-  border: var(--cinza-claro) solid 1px;
+  border: variaveis.$cinza-claro solid 1px;
   border-radius: 10px;
-  box-shadow: 0 0 10px var(--cinza-escuro);
+  box-shadow: 0 0 10px variaveis.$cinza;
 }
 
 .info{

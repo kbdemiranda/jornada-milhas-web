@@ -1,3 +1,6 @@
+@use '../../../variaveis';
+
+
 .pesquisa-destinos{
   display: flex;
   flex-direction: column;
@@ -6,7 +9,7 @@
   margin: 5rem 10rem;
   padding: 2.5%;
   width: 80%;
-  background-color: var(--cinza-claro-on);
+  background-color: variaveis.$cinza-claro-on
 }
 
 .pesquisa-destinos-titulo{
@@ -22,10 +25,10 @@
 
 .busca-destinos-input{
   width: 90%;
-  color: var(--Neutro-escuros-Cinza-mdio, #79747E);
+  color: variaveis.$cinza-medio;
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid var(--Neutro-escuros-Cinza-mdio, #79747E);
+  border: 1px solid variaveis.$cinza-medio;
 }
